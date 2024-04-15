@@ -77,13 +77,12 @@
                     <li>Item 3</li>
                 </ul>
             </div>
-
+        </section>
         <summary>
             <details><p>Answer 1</p></details>
             <details><p>Answer 2</p></details>
             <details><p>Answer 3</p></details>
         </summary>
-        </section>
 
     <br />
     <hr />
@@ -138,15 +137,15 @@
         </select>
         
         
-        <select>
-            <datalist>
-                <option value="Chocolate">Chocolate</option>
-                <option value="Coconut">Coconut</option>
-                <option value="Mint">Mint</option>
-                <option value="Strawberry">Strawberry</option>
-                <option value="Vanilla">Vanilla</option>
-            </datalist>
-        </select>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
 
     <textarea name="Text" cols="30" rows="10">Hello</textarea>
 
