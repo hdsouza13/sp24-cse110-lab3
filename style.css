@@ -42,7 +42,6 @@
 .content > h1
 {
     text-align: center;
-    color: red;
 }
 
 #topic li {
@@ -66,6 +65,14 @@
     text-align: center;
 }
 
+h1,h2
+{
+    color: red;
+}
+
+
+
+
 button:hover {
     color: red;
 }
@@ -73,4 +80,14 @@ button:hover {
 a:active{
     color: rgb(255, 115, 0);
     background: yellow;
+}
+
+input[type="text"] {
+    border: 2px solid #ccccccca;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
 }
