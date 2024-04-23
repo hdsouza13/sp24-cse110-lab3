@@ -73,7 +73,7 @@
 
 h1,h2
 {
-    color: red;
+    color: hsl(100, 40, 10);
 }
 
 .unbuss
@@ -90,7 +90,7 @@ h1,h2
 #buss1 ~ #buss2,
 #buss1 ~ #buss3,
 #buss1 {
-    color: red; /* Change the color to your desired color */
+    color: #521; /* Change the color to your desired color */
     margin: 0.5in;
 }
 
@@ -110,7 +110,7 @@ h1,h2
 #id1
 {
     display: block;
-    color: red;
+    color: color-mix(in lch, plum 40%, pink);
     margin: 0.3in;
 }
 
@@ -128,7 +128,7 @@ h1,h2
 #item > li
 {
     display: block;
-    color: red;
+    color: color(from green srgb r g b / 0.5);
     margin: 0.3in;
 }
 
