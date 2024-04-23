@@ -126,6 +126,15 @@ h1,h2
     margin: 0.3in;
 }
 
+#graph
+{
+    height: 500px;
+    width: 500px;
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+}
+
 *
 {
     box-sizing: border-box;
