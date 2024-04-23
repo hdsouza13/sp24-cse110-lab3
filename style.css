@@ -108,7 +108,28 @@ h1,h2
     margin: 0.3in;
 }
 
+#comments
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px; 
+}
 
+#comments > h2
+{
+    text-align: center;
+}
+
+#item > li
+{
+    display: block;
+    color: red;
+    margin: 0.3in;
+}
+
+*
+{
+    box-sizing: border-box;
+}
 
 button
 {
