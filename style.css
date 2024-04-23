@@ -1,6 +1,36 @@
 #groupname{
+    text-align: center;
+    text-decoration: overline;
     color: red;
-    background-color: aquamarine;
+}
+
+#divgroupname
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+    border-style: dashed;
+    border-radius: 5cm;
+    border-color: blue;
+    border-width: 5px;
+    background-color: lightblue;
+}
+
+#link
+{
+    display: flex; 
+    align-items: center;
+}
+
+
+#logo
+{
+    height: 100px;
+    width: 100px;
+    max-width: 50px;
+    max-height: 50px;
+    position: relative;
+    left: 1400px;
+    bottom: auto;
 }
 
 li{
