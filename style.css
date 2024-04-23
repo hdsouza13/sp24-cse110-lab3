@@ -100,10 +100,14 @@ h1,h2
     padding: 50px 50px 50px 50px; 
 }
 
-#ideas > h2
-{
-    text-align: center;
-}
+#ideas {
+    /* parent rule style properties */
+    & h2 {
+      /* child rule style properties */
+      text-align: center;
+    }
+  }
+
 
 #id1 + #id2,
 #id2 + #id3,
