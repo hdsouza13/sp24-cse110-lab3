@@ -4,9 +4,9 @@
 
 ### Attendence
 
--Name
+- George Washington
 
--Name
+ * Name
 
 -Name
 
