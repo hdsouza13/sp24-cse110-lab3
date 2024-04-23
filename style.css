@@ -73,7 +73,7 @@
 
 h1,h2
 {
-    color: hsl(100, 40, 10);
+    color: hsla(100, 41%, 10%, 0.717);
 }
 
 .unbuss
