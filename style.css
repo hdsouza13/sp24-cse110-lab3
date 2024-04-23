@@ -133,8 +133,8 @@ h1,h2
 {
     height: 500px;
     width: 500px;
-    max-width: auto;
-    max-height: auto;
+    max-width: 500px;
+    max-height: 500px;
     position: static;
     left: 200px;
 }
