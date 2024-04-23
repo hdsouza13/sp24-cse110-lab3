@@ -1,10 +1,10 @@
 ---
 name: Bug report
-about: Li Color Bug
+about: Color using the hsl method
 title: ''
-labels: bug
+labels: color
 assignees: hdsouza13
 
 ---
 
-I tried to change the color of the Li tag, however it changed for all the Li tags, something that I didnt wanted
+I was using the hsl for the color, but it wasnt working
