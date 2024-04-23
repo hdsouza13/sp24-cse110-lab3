@@ -70,8 +70,43 @@ h1,h2
     color: red;
 }
 
+.unbuss
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+}
 
+.unbuss > h2
+{
+    text-align: center;
+}
 
+#buss1 ~ #buss2,
+#buss1 ~ #buss3,
+#buss1 {
+    color: red; /* Change the color to your desired color */
+    margin: 0.5in;
+}
+
+#ideas
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px; 
+}
+
+#ideas > h2
+{
+    text-align: center;
+}
+
+#id1 + #id2,
+#id2 + #id3,
+#id1
+{
+    display: block;
+    color: red;
+    margin: 0.3in;
+}
 
 button:hover {
     color: red;
