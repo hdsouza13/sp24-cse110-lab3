@@ -146,6 +146,10 @@ h1,h2
     left: 200px;
 }
 
+#hidden{
+    display: none;
+}
+
 p {
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
