@@ -33,6 +33,44 @@
     bottom: auto;
 }
 
-li{
-    color: blue;
+.content
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+}
+
+.content > h1
+{
+    text-align: center;
+    color: red;
+}
+
+#topic li {
+    margin: 0.5in; /* Adjust this value to create the desired space */
+}
+
+.attedence li
+{
+    margin: 0.5in;
+    font-size: 1.5em;
+}
+
+#attedence1
+{
+    border: 1px solid black;
+    padding: 50px 50px 50px 50px;
+}
+
+#attedence1 > h2
+{
+    text-align: center;
+}
+
+button:hover {
+    color: red;
+}
+
+a:active{
+    color: rgb(255, 115, 0);
+    background: yellow;
 }
