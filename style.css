@@ -131,7 +131,7 @@ h1,h2
 
 #item > li
 {
-    display: grid, inline-grid;
+    display: grid | inline-grid;
     color: color(from green srgb r g b / 0.5);
     margin: 0.3in;
 }
